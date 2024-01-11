@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Vina+Sans&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #36454f;
+    margin-top: 10px;
+}
+
+h1 {
+    text-align: center;
+    margin: 0px 10px;
+    padding: 15px;
+    font-family: 'Vina Sans', sans-serif;
+    font-weight: 400;
+    text-shadow: 1px 1px 10px white;
+    font-size: 50px;
+    background-color: #FFD700;
+    border-radius: 20px;
+}
+
+button {
+    width: 100px;
+    height: 100px;
+    margin-top: 40px;
+    background-size: 90px 90px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+}
+
+.paper {
+    background-image: url("https://media.geeksforgeeks.org/wp-content/uploads/20210705223645/paper.jpeg");
+
+}
+
+.sessior {
+    background-image: url("sessior.png");
+}
+
+.rock {
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHUAAAB1CAMAAABH2l6OAAAAZlBMVEUAAAD////FxcX7+/tbW1vJycn19fXt7e3q6urx8fHf398PDw/b29vj4+M+Pj4ZGRmZmZlUVFQtLS1/f39ycnIoKChhYWGNjY3U1NSmpqYICAhJSUm2trYiIiJOTk6tra1qamo3Nze0exxZAAAEkUlEQVRoge1a59ajIBC1YYkl9l7f/yXXQZNPEVDxc/fsOd5fCQI3M0xjjCQ9ePDgwYMHDx48ePDgP8M7TJq/SRf7iinPcOvofT9lVFsyiby/kzHMnA3jhFd1G2muMjgB/k2kBYdzRH0LacsnvYmWdaS3KjnbJZXl9Gd6WAVBddmdB/0Aq2sDXxt1yDHgu4ku+rJygFSWNYlUihVdII0PkWKDehNjnTCpbRxjNeEkETEoLG3HYHHJAbAn0u50QdKAzvmSpIoYAhWX5DzBaLkRaUK81YIJVpwT8zIhUp9OitVJqgGsmAydhQhpyCCVW3hKhCyIT95vsJIK+wK0KUXrsReMEblJJFKyXRU/btZJXh+kje+IuA4zqVrT83o9CiZGGIKADbNcVZaVaQJhT8V26DwpJ6t+jmttTw4MrUbc86wMV/0orpRIe8J6XwXQ89me5aqf7UHeZGVPKvyYVYY6bUwDmxQfoKYnEmlPYE6LOOH49llWpquOCPHuIMg6GEP8S/NRx6qJip4jUVW1QaBhpCP6vo8BEZmzlsCnpU7Gk28eHABvc66oYEettLanPLyRFbuNJW/Kh01+abTfY81hHU7fDjhPq2A7NrpJUC/SvKRJvDTqXJUVJM6zGnh3+OQO0x5JFcfeXInGYxBVdV2fYykj5Zxm1QNYhp2y3exmkzGUUcGcZTWCr34RfBqWm8XmZj79ZE+yOh4s0vBnCAmBmkcz8UC9atJr03Oskz9W06GF83LVQUqNHHpWRJdZ3XRJao0XipKTIOY1F1mNOZLHs1Cv0W2GbceAXEVlPXaHGdN4Py/4Bvf8R2wOHHHWV/yZ3v5YKZwYo0RfgB6ZD7Ga8+RmmdegiNF2l8birNOV2FvnUuWIrPRjPcg66iki8y0u2MqgQLyz7a+w6sp2629x0lQ+YngQK98eteENzNU29hD4Sk7edOkh4goriPpO1pslVRB1KHfNKeWwKwtRVmwmvoUybVs/lMlQBVrKSukXWKFumK45Rt6l3sl2iygrFvXnq4uK2AvLm1nhyGwyCOsvVGf9kDS7VbAgK4SciPVQN50ccZs+gqygS16ZLvMvG4KssHQn3/Cuc2KsUIQNe1kuZbPWpmuapmFYljWWk+puvpwxrmz25h5r+pQAG1AOO2cmQ/X72plzvhHCb347GUSFdIdVoBHCEdb6ZOqMq2P16FVrAaYzysZPW8Xj2aJIl9Zm1pwr0wwoiXcCvUzbA6vB1U1COvUc8D1/e80Y4Sa8zdmoaZvJKlw5cFvA/BZiaWeSEufCPX/q6xR8eZ19Jg++c9tMsRbM4p13qaQ55Lp9tno1GMZZ7QK13tM3PAiK+4AtLS+ppk/oskmzq29Ht6+PwG2Iu1Eu1u/m4E14JDamrQqMOhKICRyE9dI+oQVMPe/xB+VFFhyuYXZRxoq+YuW9K1SZNfB5vNuxvMcy0zW8wC+yAuzB67Pu0xZgQuj1whFkvBt6fxer1GTU2ItxGykgZpjUbQqeERSUl5Wvm0kBaUEkG/QX/ioC8KLum/8Rpxa9g7qPMp/e93jw4MGDBw/+Bf4ADq46sNbC6w8AAAAASUVORK5CYII=");
+    background-size: contain;
+}
+
+.buttoncontainer {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 40px;
+}
+
+div button:active {
+    box-shadow: 0px 0px 10px 7px rgb(218, 88, 203);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 19px;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.score {
+    height: 50px;
+    padding: 5px 20px;
+    background-color: #FFD700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-shadow: 0px 0px 10px 4px rgb(0, 255, 106);
+}
+
+
+.resulttext {
+    margin-top: 30px;
+    padding: 3px;
+    text-align: center;
+    font-size: xx-large;
+    color: #FFD700;
+    box-shadow: 0px 0px 10px 10px rgb(0, 247, 255);
+
+
+}
+
+.resultcontainer {
+    width: 70vw;
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.resultcont,
+.resultimage1,
+.resultimage2 {
+    width: 70px;
+    height: 70px;
+    background-color: #FFD700;
+    border-radius: 5px;
+    background-size: 60px 60px;
+    background-position: center center;
+    object-fit: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+.turnplayer,
+.turncomputer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.crock {
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHUAAAB1CAMAAABH2l6OAAAAZlBMVEUAAAD////FxcX7+/tbW1vJycn19fXt7e3q6urx8fHf398PDw/b29vj4+M+Pj4ZGRmZmZlUVFQtLS1/f39ycnIoKChhYWGNjY3U1NSmpqYICAhJSUm2trYiIiJOTk6tra1qamo3Nze0exxZAAAEkUlEQVRoge1a59ajIBC1YYkl9l7f/yXXQZNPEVDxc/fsOd5fCQI3M0xjjCQ9ePDgwYMHDx48ePDgP8M7TJq/SRf7iinPcOvofT9lVFsyiby/kzHMnA3jhFd1G2muMjgB/k2kBYdzRH0LacsnvYmWdaS3KjnbJZXl9Gd6WAVBddmdB/0Aq2sDXxt1yDHgu4ku+rJygFSWNYlUihVdII0PkWKDehNjnTCpbRxjNeEkETEoLG3HYHHJAbAn0u50QdKAzvmSpIoYAhWX5DzBaLkRaUK81YIJVpwT8zIhUp9OitVJqgGsmAydhQhpyCCVW3hKhCyIT95vsJIK+wK0KUXrsReMEblJJFKyXRU/btZJXh+kje+IuA4zqVrT83o9CiZGGIKADbNcVZaVaQJhT8V26DwpJ6t+jmttTw4MrUbc86wMV/0orpRIe8J6XwXQ89me5aqf7UHeZGVPKvyYVYY6bUwDmxQfoKYnEmlPYE6LOOH49llWpquOCPHuIMg6GEP8S/NRx6qJip4jUVW1QaBhpCP6vo8BEZmzlsCnpU7Gk28eHABvc66oYEettLanPLyRFbuNJW/Kh01+abTfY81hHU7fDjhPq2A7NrpJUC/SvKRJvDTqXJUVJM6zGnh3+OQO0x5JFcfeXInGYxBVdV2fYykj5Zxm1QNYhp2y3exmkzGUUcGcZTWCr34RfBqWm8XmZj79ZE+yOh4s0vBnCAmBmkcz8UC9atJr03Oskz9W06GF83LVQUqNHHpWRJdZ3XRJao0XipKTIOY1F1mNOZLHs1Cv0W2GbceAXEVlPXaHGdN4Py/4Bvf8R2wOHHHWV/yZ3v5YKZwYo0RfgB6ZD7Ga8+RmmdegiNF2l8birNOV2FvnUuWIrPRjPcg66iki8y0u2MqgQLyz7a+w6sp2629x0lQ+YngQK98eteENzNU29hD4Sk7edOkh4goriPpO1pslVRB1KHfNKeWwKwtRVmwmvoUybVs/lMlQBVrKSukXWKFumK45Rt6l3sl2iygrFvXnq4uK2AvLm1nhyGwyCOsvVGf9kDS7VbAgK4SciPVQN50ccZs+gqygS16ZLvMvG4KssHQn3/Cuc2KsUIQNe1kuZbPWpmuapmFYljWWk+puvpwxrmz25h5r+pQAG1AOO2cmQ/X72plzvhHCb347GUSFdIdVoBHCEdb6ZOqMq2P16FVrAaYzysZPW8Xj2aJIl9Zm1pwr0wwoiXcCvUzbA6vB1U1COvUc8D1/e80Y4Sa8zdmoaZvJKlw5cFvA/BZiaWeSEufCPX/q6xR8eZ19Jg++c9tMsRbM4p13qaQ55Lp9tno1GMZZ7QK13tM3PAiK+4AtLS+ppk/oskmzq29Ht6+PwG2Iu1Eu1u/m4E14JDamrQqMOhKICRyE9dI+oQVMPe/xB+VFFhyuYXZRxoq+YuW9K1SZNfB5vNuxvMcy0zW8wC+yAuzB67Pu0xZgQuj1whFkvBt6fxer1GTU2ItxGykgZpjUbQqeERSUl5Wvm0kBaUEkG/QX/ioC8KLum/8Rpxa9g7qPMp/e93jw4MGDBw/+Bf4ADq46sNbC6w8AAAAASUVORK5CYII=");
+}
+
+.cpaper {
+    background-image: url("https://media.geeksforgeeks.org/wp-content/uploads/20210705223645/paper.jpeg");
+}
+
+.csessior {
+    background-image: url("sessior.png");
+}
+
+.prock {
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHUAAAB1CAMAAABH2l6OAAAAZlBMVEUAAAD////FxcX7+/tbW1vJycn19fXt7e3q6urx8fHf398PDw/b29vj4+M+Pj4ZGRmZmZlUVFQtLS1/f39ycnIoKChhYWGNjY3U1NSmpqYICAhJSUm2trYiIiJOTk6tra1qamo3Nze0exxZAAAEkUlEQVRoge1a59ajIBC1YYkl9l7f/yXXQZNPEVDxc/fsOd5fCQI3M0xjjCQ9ePDgwYMHDx48ePDgP8M7TJq/SRf7iinPcOvofT9lVFsyiby/kzHMnA3jhFd1G2muMjgB/k2kBYdzRH0LacsnvYmWdaS3KjnbJZXl9Gd6WAVBddmdB/0Aq2sDXxt1yDHgu4ku+rJygFSWNYlUihVdII0PkWKDehNjnTCpbRxjNeEkETEoLG3HYHHJAbAn0u50QdKAzvmSpIoYAhWX5DzBaLkRaUK81YIJVpwT8zIhUp9OitVJqgGsmAydhQhpyCCVW3hKhCyIT95vsJIK+wK0KUXrsReMEblJJFKyXRU/btZJXh+kje+IuA4zqVrT83o9CiZGGIKADbNcVZaVaQJhT8V26DwpJ6t+jmttTw4MrUbc86wMV/0orpRIe8J6XwXQ89me5aqf7UHeZGVPKvyYVYY6bUwDmxQfoKYnEmlPYE6LOOH49llWpquOCPHuIMg6GEP8S/NRx6qJip4jUVW1QaBhpCP6vo8BEZmzlsCnpU7Gk28eHABvc66oYEettLanPLyRFbuNJW/Kh01+abTfY81hHU7fDjhPq2A7NrpJUC/SvKRJvDTqXJUVJM6zGnh3+OQO0x5JFcfeXInGYxBVdV2fYykj5Zxm1QNYhp2y3exmkzGUUcGcZTWCr34RfBqWm8XmZj79ZE+yOh4s0vBnCAmBmkcz8UC9atJr03Oskz9W06GF83LVQUqNHHpWRJdZ3XRJao0XipKTIOY1F1mNOZLHs1Cv0W2GbceAXEVlPXaHGdN4Py/4Bvf8R2wOHHHWV/yZ3v5YKZwYo0RfgB6ZD7Ga8+RmmdegiNF2l8birNOV2FvnUuWIrPRjPcg66iki8y0u2MqgQLyz7a+w6sp2629x0lQ+YngQK98eteENzNU29hD4Sk7edOkh4goriPpO1pslVRB1KHfNKeWwKwtRVmwmvoUybVs/lMlQBVrKSukXWKFumK45Rt6l3sl2iygrFvXnq4uK2AvLm1nhyGwyCOsvVGf9kDS7VbAgK4SciPVQN50ccZs+gqygS16ZLvMvG4KssHQn3/Cuc2KsUIQNe1kuZbPWpmuapmFYljWWk+puvpwxrmz25h5r+pQAG1AOO2cmQ/X72plzvhHCb347GUSFdIdVoBHCEdb6ZOqMq2P16FVrAaYzysZPW8Xj2aJIl9Zm1pwr0wwoiXcCvUzbA6vB1U1COvUc8D1/e80Y4Sa8zdmoaZvJKlw5cFvA/BZiaWeSEufCPX/q6xR8eZ19Jg++c9tMsRbM4p13qaQ55Lp9tno1GMZZ7QK13tM3PAiK+4AtLS+ppk/oskmzq29Ht6+PwG2Iu1Eu1u/m4E14JDamrQqMOhKICRyE9dI+oQVMPe/xB+VFFhyuYXZRxoq+YuW9K1SZNfB5vNuxvMcy0zW8wC+yAuzB67Pu0xZgQuj1whFkvBt6fxer1GTU2ItxGykgZpjUbQqeERSUl5Wvm0kBaUEkG/QX/ioC8KLum/8Rpxa9g7qPMp/e93jw4MGDBw/+Bf4ADq46sNbC6w8AAAAASUVORK5CYII=");
+}
+
+.ppaper {
+    background-image: url("https://media.geeksforgeeks.org/wp-content/uploads/20210705223645/paper.jpeg");
+}
+
+.psessior {
+    background-image: url("sessior.png");
+}
